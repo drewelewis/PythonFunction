@@ -4,4 +4,4 @@
 
 azure-functions
 cryptography
-cffi
+cffi==1.14.6
