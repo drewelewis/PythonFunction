@@ -1,0 +1,19 @@
+{
+    "scriptFile": "__init__.py",
+    "bindings": [
+        {
+            "name": "req",
+            "direction": "in",
+            "type": "httpTrigger",
+            "authLevel": "anonymous",
+            "route": "items/{id}"
+        },
+        {
+            "name": "obj",
+            "direction": "in",
+            "type": "blob",
+            "path": "samples/{id}",
+            "connection": "AzureWebJobsStorage"
+        }
+    ]
+}

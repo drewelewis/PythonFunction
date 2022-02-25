@@ -1,0 +1,12 @@
+{
+    "scriptFile": "__init__.py",
+    "bindings": [
+        {
+            "id": "sfds",
+            "name": "mytimer",
+            "type": "timerTrigger",
+            "direction": "in",
+            "schedule": "0 */60 * * * *"
+        }
+    ]
+}
