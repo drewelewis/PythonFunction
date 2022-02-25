@@ -3,5 +3,5 @@
 # Manually managing azure-functions-worker may cause unexpected issues
 
 azure-functions
-cryptography
+cryptography==35.0.0
 cffi==1.14.6
